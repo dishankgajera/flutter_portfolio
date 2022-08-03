@@ -1,0 +1,58 @@
+name: covermeapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  agora_rtc_engine: ^4.0.6
+  permission_handler: ^8.3.0
+  intl: ^0.17.0
+  cached_network_image: ^3.1.0
+  flutter_svg: ^0.22.0
+  connectivity: ^3.0.6
+  flutter_ringtone_player: ^3.0.0
+  wakelock: ^0.5.3+3
+  socket_io_client: ^1.0.1
+  floating_bottom_navigation_bar: ^1.5.2
+  get: ^4.3.8
+  bubble: ^1.2.1
+  firebase_core: ^1.4.0
+  firebase_messaging: ^10.0.4
+  url_launcher: ^6.0.9
+  fluttertoast: ^8.0.8
+  http: ^0.13.3
+  shared_preferences: ^2.0.6
+  flutter_local_notifications: ^6.1.0
+  share: ^2.0.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 700
